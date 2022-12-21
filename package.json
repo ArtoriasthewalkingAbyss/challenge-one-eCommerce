@@ -1,0 +1,16 @@
+{
+  "name": "challenge-one-ecommerce",
+  "version": "1.0.0",
+  "description": "sprint del Challenge ONE, Debo desarrollar un e-commerce para una empresa imaguinaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "javaScript"
+  ],
+  "author": "Agustín Castro",
+  "license": "MIT"
+}
