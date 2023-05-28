@@ -1,0 +1,128 @@
+body {
+    width: 98.7vw;
+    height: auto;
+    margin: 0%;
+}
+
+main {
+    height: 1174px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 1%;
+    height: 352px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../assets/chocolate-banner.jpg) repeat center;/*no como hacer para que ocupe toda el ancho*/
+    background-size: contain;
+}
+
+.h2-banner {
+    margin: 1%;
+    font-size: 52px;
+    line-height: 61px;
+    color: aliceblue;
+}
+
+.h4-banner {
+    margin: 1%;
+    font-size: 22px;
+    line-height: 26px;
+    color: aliceblue;
+}
+
+.link-albaner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 97px;
+    height: 19px;
+    margin: 20px;
+    font-family: ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    background: #2A7AE4;
+}
+
+/*productos*/
+.sec-producs {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    gap: 4vw;
+    margin: 0px 4%;
+}
+
+.div-produc-fila {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.div-productos {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pri {
+    background-color: blueviolet;
+}
+
+.seg {
+    background-color: blue;
+}
+
+.ter {
+    background-color: brown;
+}
+
+.h3-produc {
+    flex-grow: 0;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+
+
+.link-todo {
+    
+}
+
+.div-grupo {
+    display: flex;
+    gap: 15px;
+    flex: none;
+}
+
+.img-productos {
+    width: 170px;
+    height: 100px;
+}
+
+h6 {
+    margin: 1px;
+    color: aliceblue;
+}
+
+/*p{
+    color: aliceblue;
+}*/
+
+a {
+    color: aliceblue;
+}
